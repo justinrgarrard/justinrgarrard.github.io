@@ -4,7 +4,7 @@ highlighter:      rouge
 
 # Setup
 title:            Garrard, Justin R.
-tagline:          'A Data Analyst work portfolio'
+tagline:          'Data Analyst project portfolio'
 description:      'Data analyst project portfolio. '
 url:              https://justinrgarrard.github.io/
 baseurl:          # the optional subpath of your site, e.g. "/blog"

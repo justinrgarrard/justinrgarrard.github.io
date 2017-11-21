@@ -18,6 +18,8 @@ As a matter of personal interest, I aggregated data from two decades of U.S. Cen
 
 ## The Highlights
 
+![Visual of Educational Attainment](/assets/images/ed_attain_avg.png)
+
 * From 1995 to 2015, there has been significant growth in U.S. education levels among adults ages 25-44.
 
 * This growth has been primarily focused on women. Fifty percent of women between the ages of 22-44 had some form of degree (Associates, Bachelors, or advanced) by 2015, compared to forty percent of men for the same age range.

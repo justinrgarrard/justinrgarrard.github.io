@@ -19,6 +19,10 @@ As part of Udacity's Data Analyst program, students are required to find, explor
 
 ## The Highlights
 
+![Regional Completion](/assets/images/regional_completion.png)
+
+![For Profit Completion](/assets/images/for-profit.png)
+
 * There appears to be a relationship between tution and graduation rates. More specifically, schools with higher tuition tend to have higher five-year graduation rates. This trend is more distinct when schools are grouped by their funding type (private, public, for-profit).
 
 * For-Profit universities demonstrate significantly higher levels of debt and lower five-year graduation rates than other universities.
