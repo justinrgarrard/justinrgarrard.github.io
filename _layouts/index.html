@@ -1,42 +1,8 @@
 ---
-layout: default
+layout: page
+title: About
 ---
 
-<div class="content">
-  {% include pagination-newer.html %}
+Justin Garrard is an amateur data scientist in Meridian, Idaho. He holds a Bachelor's degree in Computer Science from Boise State University and a Data Analyst certification from Udacity. He also goes by the name Roy. 
 
-  {{ content }}
-
-  {% for post in paginator.posts %}
-  <article class="post-body">
-    <h2 class="post-title">
-      <a href="{{ site.baseurl }}{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h2>
-    {% include post-meta.html post=post %}
-
-    {% if post.excerpt %}
-      {{ post.excerpt }}
-    {% else %}
-      {{ post.content }}
-    {% endif %}
-
-    {% if post.excerpt %}
-      {% comment %}Excerpt may be equal to content. Check.{% endcomment %}
-      {% capture content_words %}
-        {{ post.content | number_of_words }}
-      {% endcapture %}
-      {% capture excerpt_words %}
-        {{ post.excerpt | number_of_words }}
-      {% endcapture %}
-
-      {% if content_words != excerpt_words %}
-        <a href="{{ site.baseurl }}{{ post.url }}">More &hellip;</a>
-      {% endif %}
-    {% endif %}
-  </article>
-  {% endfor %}
-
-  {% include pagination-older.html %}
-</div>
+This page is hosted on [GitHub Pages](https://pages.github.com/). The theme, [Hydeout](https://github.com/fongandrew/hydeout), was designed by Andrew Fong.
