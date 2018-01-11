@@ -7,7 +7,7 @@ tags:
   - ETL
 ---
 
-Data can come in any number of filetypes, which, while fascinating in its own way, can be a headache for programmers. This is a writeup of a few of the most common filetypes and how to use Python to interface with them.
+Data can come in any number of filetypes, which, while fascinating in its own way, can be a headache for programmers. This is a writeup of a few of the most common filetypes and how to use Python to read them.
 
 *This reference tutorial is based off of the excellent free online book* [Automate the Boring Stuff With Python](https://automatetheboringstuff.com).
 
@@ -88,11 +88,11 @@ A little more complicated than CSV files, the Excel spreadsheet is also much mor
 ```
 import xlrd		# Reading .xls files
 import xlwt		# Writing .xls files
-import openpyxl	# Reading and writing .xlsx files
+import openpyxl		# Reading and writing .xlsx files
 
 # .xls (pre-2010) file
 book = xlrd.open_workbook('filename.xls')
-sheet = book.sheet_by_index(0)	# Open the first sheet in the workbook
+sheet = book.sheet_by_index(0)		# Open the first sheet in the workbook
 cell = sheet.cell(0, 0)			# Get the top-leftmost cell
 
 # .xlsx (2010-) file
@@ -136,8 +136,8 @@ There is no special encoding on a JSON file; it's plain text and can be opened w
 import json
 
 with open('filename.json') as f:
-	text = f.read()					# Convert the file to text
-	json_obj = json.loads(text)		# Convert the text to a dictionary
+	text = f.read()			# Convert the file to text
+	json_obj = json.loads(text)	# Convert the text to a dictionary
 	print(json_obj['name'])			
 ```
 
