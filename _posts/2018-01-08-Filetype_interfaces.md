@@ -17,7 +17,7 @@ Data can come in any number of filetypes, which, while fascinating in its own wa
 
 Plain text data is one of the easiest to interface with. The [Python Docs](https://docs.python.org/3/tutorial/inputoutput.html) cover how to handle it extensively. 
 
-```
+```python
 with open('filename.txt') as f:
 	data = f.read()			# Puts all the data in a string
 	data = f.readline()		# Puts all the data in a list of strings
@@ -30,7 +30,7 @@ The readline() function divides data by newlines, but it can be tweaked to separ
 
 Word documents are a little trickier to work with than flat files. They're encoded differently than plain text (because of fonts, styles, and other things) so we need a specific [library](https://python-docx.readthedocs.io/en/latest/) to pull information from them.
 
-```
+```python
 import docx
 document = doxc.Document('filename.docx')
 text = []
@@ -47,7 +47,7 @@ text_string = '\n'.join(text)
 
 PDF's are the bane of data miners. Adobe's special propriety encoding is a nightmare to work with, but luckily there are [tools](https://pythonhosted.org/PyPDF2/) to do so.
 
-```
+```python
 import PyPDF2
 with open('filename.pdf', 'rb') as f:
 	scribe = PyPDF2.PdfFileReader(f)
@@ -66,7 +66,7 @@ Don't count on the string being an exact likeness of the PDF's text. The transla
 Despite the name, CSV files come in many different shapes and sizes. The separting character may be a comma, but it might also be a tab or a pipe \|. Luckily CSV's are ubiquitious enough that plenty of programs can read it in without trouble (Excel, Calc, RStudio). Python has a [built-in library](https://docs.python.org/3/library/csv.html) that operates similarly to the standard file reader:
 
 
-```
+```python
 import csv
 with open('filename.csv') as f:
 	scribe = csv.reader(csvfile, delimeter=',')
@@ -76,7 +76,7 @@ with open('filename.csv') as f:
 
 Programmers looking for a heavyweight analysis tool will be better served with the [Pandas library](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.read_csv.html). The read_csv() function translates the csv file straight into a dataframe.
 
-```
+```python
 import pandas
 data = pandas.read_csv('filename.csv', sep=',')
 ```
@@ -85,7 +85,7 @@ data = pandas.read_csv('filename.csv', sep=',')
 
 A little more complicated than CSV files, the Excel spreadsheet is also much more common. Interfacing with a spreadsheet opens up new avenues for analysis and automation. Unfortunately, there is no built-in tool for reading Excel spreadsheets. We'll need to use a [library](http://www.python-excel.org/).
 
-```
+```python
 import xlrd		# Reading .xls files
 import xlwt		# Writing .xls files
 import openpyxl		# Reading and writing .xlsx files
@@ -102,7 +102,7 @@ book2 = openpyxl.
 
 There is also a [Pandas wrapper](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.read_excel.html) that uses the previously mentioned libraries to convert Excel files into dataframes.
 
-```
+```python
 data = pandas.read_excel('filename.xls', sheet_name=0)
 ```
 
@@ -132,7 +132,7 @@ Contrary to their name, JSON's (JavaScript Object Notation) have very little to 
 
 There is no special encoding on a JSON file; it's plain text and can be opened with any text editor. Programs reading a JSON file will expect it to follow a strict syntax though. This allows JSON objects to be easily passed between different programs in different programming languages. Python comes with a built-in [JSON library](https://docs.python.org/3/library/json.html) for this reason.
 
-```
+```python
 import json
 
 with open('filename.json') as f:
@@ -160,7 +160,7 @@ XML (eXtensible Markup Language) fulfills the same purpose as a JSON. Namely, it
 
 Python comes with a [built-in library](https://docs.python.org/3/library/xml.etree.elementtree.html) for handling XML files. However, many find the [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) and [xmltodict](https://pypi.python.org/pypi/xmltodict) libraries easier to work with.
 
-```
+```python
 import xmltodict
 with open('filename.xml') as f:
 	text = f.read()
