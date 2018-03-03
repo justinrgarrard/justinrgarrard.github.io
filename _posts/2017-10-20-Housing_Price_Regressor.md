@@ -2,7 +2,7 @@
 layout: post
 title: "Ames Housing Price Regressor"
 categories:
-  - Kaggle
+  - Project
 tags:
   - Python
   - regression
