@@ -1,7 +1,10 @@
 ---
-layout: category
-title: ETL Primer
-category: ETLPrimer
+layout: post
+title: "ETL Primer"
+categories:
+  - Project
+tags:
+  - Python
 ---
 
 ETL (Extract, Transform, and Load) is the practice of preparing data for use. It's something of a prerequisite for Data Science, and pops up in a good number of other contexts. This page is intended to serve as a helpful reference for programmers that don't engineer data pipelines on a daily basis. It covers simple, small-scale use cases.
