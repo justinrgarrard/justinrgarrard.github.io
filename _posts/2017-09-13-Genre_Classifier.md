@@ -46,9 +46,6 @@ Once the data is compiled, it can be used to train a classifier. There are two m
 
 Presently, the program uses an SVM with the author's name and the book's title. The text processing is handled by two sub-classifiers, both Naive Bayes.
 
-```
-
-```
 
 That being said, it's evident that the program could use work. I'm curious whether it would make a difference if I gave the classifier more information. For instance, if it was fed probability distributions for the author and title classifiers, or if I could get the title classifier to use bigrams.
 
