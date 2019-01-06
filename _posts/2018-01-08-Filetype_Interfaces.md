@@ -2,9 +2,10 @@
 layout: post
 title: "Filetype Interfaces"
 categories:
-  - ETLPrimer
+  - Notes
 tags:
   - ETL
+  - Notes
 ---
 
 Data can come in any number of filetypes, which, while fascinating in its own way, can be a headache for programmers. This is a writeup of a few of the most common filetypes and how to use Python to read them.

@@ -10,7 +10,7 @@ tags:
 
 Data Science, speaking broadly, is the practice of turning data into useful information. It's the process of distilling actionable insights from mind-bogglingly large piles of observations, such as predicting cancer rates based on the medical histories of 100,000 people. This reference page outlines my understanding of data science and the tools commonly associated with it.
 
-### [ETL](/category/ETLPrimer.html) (Extract-Transform-Load)
+### [ETL](/project/2018/03/10/ETL_Primer.html) (Extract-Transform-Load)
 
 A prerequisite to doing any kind of data science is having clean, useful data to work with. ETL is about organizing data sources into a cohesive shape. 
 

@@ -1,10 +1,11 @@
 ---
 layout: post
-title: "Database Quereies"
+title: "Database Queries"
 categories:
-  - ETLPrimer
+  - Notes
 tags:
   - ETL
+  - Notes
 ---
 
 At a certain point, it stops being feasible to store data in a file format. You'll know you're at this point when your text editor crashes from the strain of trying to open a 2 GB CSV or when Excel flat out tells you that it can't load every row.

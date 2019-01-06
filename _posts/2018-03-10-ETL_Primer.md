@@ -13,8 +13,8 @@ ETL (Extract, Transform, and Load) is the practice of preparing data for use. It
 
 Extraction is the process of pulling data together from various digital sources. It covers a broad range of technologies.
 
-* [File Extraction](../etlprimer/2018/01/08/Filetype_interfaces.html) (.txt, .csv, .xls, etc.)
-* [Database Queries](../etlprimer/2018/01/11/Database_queries.html)
+* [File Extraction](/notes/2018/01/08/Filetype_Interfaces.html) (.txt, .csv, .xls, etc.)
+* [Database Queries](/notes/2018/01/11/Database_Queries.html)
 * API Requests
 * Web Scraping
 
