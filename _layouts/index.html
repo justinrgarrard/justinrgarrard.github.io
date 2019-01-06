@@ -1,6 +1,14 @@
 ---
-layout: page
-title: About
+layout: default
 ---
 
+<header>
+  <h1 class="post-title">About</h1>
+</header>
+<div class="content">
+  {% include post-meta.html post=page %}
+
+  <div class="post-body">
+    {{ content }}
+  </div>
 
