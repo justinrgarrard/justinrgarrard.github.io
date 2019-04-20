@@ -3,19 +3,13 @@ layout: post
 title: "Job Skill Webscraper"
 categories:
   - Project
-tags:
-  - project
-  - web scraper
-  - BeautifulSoup
-  - requests
-  - NLP
 ---
 
 ## Overview
 
 ![Visual of Web Scraper](/assets/images/data_analyst_keywords.png)
 
-The [Job Skill Webscraper](https://github.com/justinrgarrard/JobSkillAssessor) is designed to traverse Indeed.com for a specific job title (i.e. Data Analyst) and report on the most frequently requested skills. It collects job postings to store as text, allowing for processing and visualization.
+The [Job Skill Webscraper](https://github.com/justinrgarrard/JobSkillAssessor) is designed to traverse Indeed.com for a specific job title (i.e. Software Engineer) and report on the most frequently requested skills. It collects job postings to store as text, allowing for processing and visualization.
 
 ## Data Wrangling
 
