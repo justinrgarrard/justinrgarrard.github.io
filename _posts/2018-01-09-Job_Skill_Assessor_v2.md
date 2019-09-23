@@ -13,7 +13,7 @@ An extension of a previous project, Scriter is a web application that visualizes
 
 ## Contents
 
-* [Web Site](http://scriter.net/)
+* [Web Site](http://scriter.net/) (Replaced by a Newer Version)
 
 * [Code Repository](https://github.com/justinrgarrard/JobSkillAssessor)
 
