@@ -3,9 +3,9 @@ markdown:         kramdown
 highlighter:      rouge
 
 # Setup
-title:            Garrard, Justin R.
-tagline:          'Technology project portfolio'
-description:      'Technology project portfolio. '
+title:            Justin R. Garrard
+tagline:          ''
+description:      ''
 url:              https://justinrgarrard.github.io/
 baseurl:          # the optional subpath of your site, e.g. "/blog"
                   # NB: This applies to all pages in your Jekyll site.

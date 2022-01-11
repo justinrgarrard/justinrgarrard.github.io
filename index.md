@@ -1,11 +1,23 @@
 ---
 layout: index
-title: About
 ---
 
-![Picture of Author](https://s3.amazonaws.com/jrg-resume/profile.png)
+# About the Author
 
-This is the personal website of Justin R. Garrard, an IT professional living in Virginia Beach, Virginia. The links on the sidebar will take you to information about past projects.
+Justin R. Garrard is a programmer and analyst living in Boise, Idaho.
+
+He received a MS in Analytics from Georgia Tech and a BS in Computer Science from Boise State University.
+
+His interests include research on education practices, pragmatic design, and writing about himself in the third person.
+
+# About the Site
+
+This site serves several purposes:
+
+* **Organizes and Displays** projects to interested parties
+
+* **Aggregates Personal Links** like the author's LinkedIn
+
+* **Explores Web Design** whenever the author feels like tinkering with the underlying technical stack
 
 
-<sup>This page is hosted on [GitHub Pages](https://pages.github.com/). The theme, [Hydeout](https://github.com/fongandrew/hydeout), was designed by Andrew Fong.</sup>
