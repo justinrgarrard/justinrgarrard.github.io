@@ -21,6 +21,7 @@ A set of tools and resources to make the job hunting process easier.
 > A web scraper and dashboard that visualizes tech term importance based on job board postings.
 
 **[Notesite](https://github.com/justinrgarrard/notesite) (2020)**
+* [Link](https://justinrgarrard.github.io/notesite/notes/) to my personal notes, infrequently updated
 
 > A Markdown note-taking system that incorporates version control and web publishing.
 

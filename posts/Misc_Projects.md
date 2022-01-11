@@ -19,6 +19,10 @@ A collection of uncategorized projects.
 
 > An early attempt at machine learning with no formal training; NLP classifier to detect toxicity in Wikipedia comments.
 
+**[Udacity Nanodegree Data Analyst Portfolio](https://github.com/justinrgarrard/NanodegreePortfolio)**
+
+> A self-study program for learning common data analyst practices.
+
 **[Housing Price Regressor](https://github.com/justinrgarrard/KaggleHousePricer) (2017)**
 
 > An early attempt at machine learning with no formal training; standard Kaggle competition to predict house prices.
