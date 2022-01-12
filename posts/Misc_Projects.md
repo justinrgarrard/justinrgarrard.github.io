@@ -11,6 +11,10 @@ A collection of uncategorized projects.
 
 ## Contents
 
+**Chicken Audio Classification (2021)**
+
+> A degree practicum in conjunction with the AudioT startup company. Detects livestock chicken coughs to monitor the well-being of flocks at an industrial scale. Under NDA.
+
 **[Digital Mirror](https://github.com/justinrgarrard/MagicMirror) (2018)**
 
 > A mainly physical project creating a mirror that displays the time and weather.

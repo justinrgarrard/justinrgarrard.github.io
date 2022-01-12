@@ -16,6 +16,10 @@ A collection of links and write-ups for various side projects.
 
 > Tools to make job hunting easier.
 
+[Professional Work](/posts/Professional_Work.html)
+
+> Code written on the job. Generally not viewable.
+
 [Misc Projects](/posts/Misc_Projects.html)
 
 > Projects of various kinds.

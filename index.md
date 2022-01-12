@@ -12,12 +12,6 @@ His interests include research on education practices, pragmatic design, and wri
 
 # About the Site
 
-This site serves several purposes:
-
-* **Organizes and Displays** projects to interested parties
-
-* **Aggregates Personal Links** like the author's LinkedIn
-
-* **Explores Web Design** whenever the author feels like tinkering with the underlying technical stack
+This site is intended to showcase past projects, as well as aggregate links to various platforms like LinkedIn and GitHub.
 
 
